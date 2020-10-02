@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E3A981EB0ED3E37E55BBC3 /* Pods_marleyspoon_code_challenge_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FD9E8B0481912022FD82E /* Pods_marleyspoon_code_challenge_iOSTests.framework */; };
+		3C072330670C8BAA5BE0E8BA /* Pods_marleyspoon_code_challenge_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A650572F2CF606F08A9D685 /* Pods_marleyspoon_code_challenge_iOS.framework */; };
+		4EC54CC225266F7100EE7DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CC125266F7100EE7DC1 /* AppDelegate.swift */; };
+		4EC54CC425266F7100EE7DC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CC325266F7100EE7DC1 /* SceneDelegate.swift */; };
+		4EC54CC625266F7100EE7DC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CC525266F7100EE7DC1 /* ViewController.swift */; };
+		4EC54CC925266F7100EE7DC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC54CC725266F7100EE7DC1 /* Main.storyboard */; };
+		4EC54CCB25266F7600EE7DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC54CCA25266F7600EE7DC1 /* Assets.xcassets */; };
+		4EC54CCE25266F7600EE7DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC54CCC25266F7600EE7DC1 /* LaunchScreen.storyboard */; };
+		4EC54CD925266F7600EE7DC1 /* marleyspoon_code_challenge_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CD825266F7600EE7DC1 /* marleyspoon_code_challenge_iOSTests.swift */; };
+		4EC54CE425266F7600EE7DC1 /* marleyspoon_code_challenge_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CE325266F7600EE7DC1 /* marleyspoon_code_challenge_iOSUITests.swift */; };
+		4EC54CF32526742F00EE7DC1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CF22526742F00EE7DC1 /* Service.swift */; };
+		4EC54CF42526742F00EE7DC1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CF22526742F00EE7DC1 /* Service.swift */; };
+		4EC54CF52526742F00EE7DC1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CF22526742F00EE7DC1 /* Service.swift */; };
+		4EC54CF8252674F500EE7DC1 /* AlamofireExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CF7252674F500EE7DC1 /* AlamofireExt.swift */; };
+		4EC54CF9252674F500EE7DC1 /* AlamofireExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CF7252674F500EE7DC1 /* AlamofireExt.swift */; };
+		4EC54CFA252674F500EE7DC1 /* AlamofireExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CF7252674F500EE7DC1 /* AlamofireExt.swift */; };
+		4EC54CFE2526774100EE7DC1 /* RecipesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CFD2526774100EE7DC1 /* RecipesResponse.swift */; };
+		4EC54CFF2526774100EE7DC1 /* RecipesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CFD2526774100EE7DC1 /* RecipesResponse.swift */; };
+		4EC54D002526774100EE7DC1 /* RecipesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54CFD2526774100EE7DC1 /* RecipesResponse.swift */; };
+		4EC54D022526808000EE7DC1 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D012526808000EE7DC1 /* Recipe.swift */; };
+		4EC54D032526808000EE7DC1 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D012526808000EE7DC1 /* Recipe.swift */; };
+		4EC54D042526808000EE7DC1 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D012526808000EE7DC1 /* Recipe.swift */; };
+		4EC54D0E2526C4C800EE7DC1 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D0D2526C4C800EE7DC1 /* Query.swift */; };
+		4EC54D0F2526C4C800EE7DC1 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D0D2526C4C800EE7DC1 /* Query.swift */; };
+		4EC54D102526C4C800EE7DC1 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D0D2526C4C800EE7DC1 /* Query.swift */; };
+		4EC54D1D2526CDC600EE7DC1 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D1B2526CDC600EE7DC1 /* RecipeTableViewCell.swift */; };
+		4EC54D1E2526CDC600EE7DC1 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D1B2526CDC600EE7DC1 /* RecipeTableViewCell.swift */; };
+		4EC54D1F2526CDC600EE7DC1 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D1B2526CDC600EE7DC1 /* RecipeTableViewCell.swift */; };
+		4EC54D202526CDC600EE7DC1 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC54D1C2526CDC600EE7DC1 /* RecipeTableViewCell.xib */; };
+		4EC54D212526CDC600EE7DC1 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC54D1C2526CDC600EE7DC1 /* RecipeTableViewCell.xib */; };
+		4EC54D222526CDC600EE7DC1 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC54D1C2526CDC600EE7DC1 /* RecipeTableViewCell.xib */; };
+		4EC54D242526DC6700EE7DC1 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D232526DC6700EE7DC1 /* RecipeTableViewController.swift */; };
+		4EC54D252526DC6700EE7DC1 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D232526DC6700EE7DC1 /* RecipeTableViewController.swift */; };
+		4EC54D262526DC6700EE7DC1 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D232526DC6700EE7DC1 /* RecipeTableViewController.swift */; };
+		4EC54D282526DE7400EE7DC1 /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D272526DE7400EE7DC1 /* RecipeResponse.swift */; };
+		4EC54D292526DE7400EE7DC1 /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D272526DE7400EE7DC1 /* RecipeResponse.swift */; };
+		4EC54D2A2526DE7400EE7DC1 /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC54D272526DE7400EE7DC1 /* RecipeResponse.swift */; };
+		DB1DF94A851B8A9E0AC66CA2 /* Pods_marleyspoon_code_challenge_iOS_marleyspoon_code_challenge_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC26576962EDA155E084861 /* Pods_marleyspoon_code_challenge_iOS_marleyspoon_code_challenge_iOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC54CD525266F7600EE7DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC54CB625266F7100EE7DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC54CBD25266F7100EE7DC1;
+			remoteInfo = "marleyspoon-code-challenge-iOS";
+		};
+		4EC54CE025266F7600EE7DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC54CB625266F7100EE7DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC54CBD25266F7100EE7DC1;
+			remoteInfo = "marleyspoon-code-challenge-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EC54CBE25266F7100EE7DC1 /* marleyspoon-code-challenge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "marleyspoon-code-challenge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC54CC125266F7100EE7DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EC54CC325266F7100EE7DC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EC54CC525266F7100EE7DC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EC54CC825266F7100EE7DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC54CCA25266F7600EE7DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EC54CCD25266F7600EE7DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EC54CCF25266F7600EE7DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC54CD425266F7600EE7DC1 /* marleyspoon-code-challenge-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "marleyspoon-code-challenge-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC54CD825266F7600EE7DC1 /* marleyspoon_code_challenge_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marleyspoon_code_challenge_iOSTests.swift; sourceTree = "<group>"; };
+		4EC54CDA25266F7600EE7DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC54CDF25266F7600EE7DC1 /* marleyspoon-code-challenge-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "marleyspoon-code-challenge-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC54CE325266F7600EE7DC1 /* marleyspoon_code_challenge_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marleyspoon_code_challenge_iOSUITests.swift; sourceTree = "<group>"; };
+		4EC54CE525266F7600EE7DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC54CF22526742F00EE7DC1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4EC54CF7252674F500EE7DC1 /* AlamofireExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireExt.swift; sourceTree = "<group>"; };
+		4EC54CFD2526774100EE7DC1 /* RecipesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesResponse.swift; sourceTree = "<group>"; };
+		4EC54D012526808000EE7DC1 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		4EC54D0D2526C4C800EE7DC1 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		4EC54D1B2526CDC600EE7DC1 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		4EC54D1C2526CDC600EE7DC1 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		4EC54D232526DC6700EE7DC1 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		4EC54D272526DE7400EE7DC1 /* RecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
+		6A650572F2CF606F08A9D685 /* Pods_marleyspoon_code_challenge_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marleyspoon_code_challenge_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847FD9E8B0481912022FD82E /* Pods_marleyspoon_code_challenge_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marleyspoon_code_challenge_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EF1C9ACA58C6954FC68D45 /* Pods-marleyspoon-code-challenge-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marleyspoon-code-challenge-iOS.release.xcconfig"; path = "Target Support Files/Pods-marleyspoon-code-challenge-iOS/Pods-marleyspoon-code-challenge-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		BBC26576962EDA155E084861 /* Pods_marleyspoon_code_challenge_iOS_marleyspoon_code_challenge_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marleyspoon_code_challenge_iOS_marleyspoon_code_challenge_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFAB162DBFE45CEFFE55F2B /* Pods-marleyspoon-code-challenge-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marleyspoon-code-challenge-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-marleyspoon-code-challenge-iOSTests/Pods-marleyspoon-code-challenge-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E01DAAE615E3C911EE649A5A /* Pods-marleyspoon-code-challenge-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marleyspoon-code-challenge-iOS.debug.xcconfig"; path = "Target Support Files/Pods-marleyspoon-code-challenge-iOS/Pods-marleyspoon-code-challenge-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB3527A01B4FE4AA7B0C872 /* Pods-marleyspoon-code-challenge-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marleyspoon-code-challenge-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-marleyspoon-code-challenge-iOSTests/Pods-marleyspoon-code-challenge-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE6DD186A593085E3C4AA92B /* Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F13953C0EEC789E7A498C2A5 /* Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC54CBB25266F7100EE7DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C072330670C8BAA5BE0E8BA /* Pods_marleyspoon_code_challenge_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC54CD125266F7600EE7DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E3A981EB0ED3E37E55BBC3 /* Pods_marleyspoon_code_challenge_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC54CDC25266F7600EE7DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1DF94A851B8A9E0AC66CA2 /* Pods_marleyspoon_code_challenge_iOS_marleyspoon_code_challenge_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14624B6FD04154042A46E100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A650572F2CF606F08A9D685 /* Pods_marleyspoon_code_challenge_iOS.framework */,
+				BBC26576962EDA155E084861 /* Pods_marleyspoon_code_challenge_iOS_marleyspoon_code_challenge_iOSUITests.framework */,
+				847FD9E8B0481912022FD82E /* Pods_marleyspoon_code_challenge_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21A56B77EF54FBEAB2882954 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E01DAAE615E3C911EE649A5A /* Pods-marleyspoon-code-challenge-iOS.debug.xcconfig */,
+				B9EF1C9ACA58C6954FC68D45 /* Pods-marleyspoon-code-challenge-iOS.release.xcconfig */,
+				F13953C0EEC789E7A498C2A5 /* Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.debug.xcconfig */,
+				EE6DD186A593085E3C4AA92B /* Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.release.xcconfig */,
+				ECB3527A01B4FE4AA7B0C872 /* Pods-marleyspoon-code-challenge-iOSTests.debug.xcconfig */,
+				DDFAB162DBFE45CEFFE55F2B /* Pods-marleyspoon-code-challenge-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4EC54CB525266F7100EE7DC1 = {
+			isa = PBXGroup;
+			children = (
+				4EC54CC025266F7100EE7DC1 /* marleyspoon-code-challenge-iOS */,
+				4EC54CD725266F7600EE7DC1 /* marleyspoon-code-challenge-iOSTests */,
+				4EC54CE225266F7600EE7DC1 /* marleyspoon-code-challenge-iOSUITests */,
+				4EC54CBF25266F7100EE7DC1 /* Products */,
+				21A56B77EF54FBEAB2882954 /* Pods */,
+				14624B6FD04154042A46E100 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC54CBF25266F7100EE7DC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54CBE25266F7100EE7DC1 /* marleyspoon-code-challenge-iOS.app */,
+				4EC54CD425266F7600EE7DC1 /* marleyspoon-code-challenge-iOSTests.xctest */,
+				4EC54CDF25266F7600EE7DC1 /* marleyspoon-code-challenge-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC54CC025266F7100EE7DC1 /* marleyspoon-code-challenge-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54D1A2526CDAB00EE7DC1 /* view */,
+				4EC54CFC2526773000EE7DC1 /* model */,
+				4EC54CF6252674E000EE7DC1 /* extras */,
+				4EC54CF1252673DA00EE7DC1 /* service */,
+				4EC54CC125266F7100EE7DC1 /* AppDelegate.swift */,
+				4EC54CC325266F7100EE7DC1 /* SceneDelegate.swift */,
+				4EC54CC525266F7100EE7DC1 /* ViewController.swift */,
+				4EC54CC725266F7100EE7DC1 /* Main.storyboard */,
+				4EC54CCA25266F7600EE7DC1 /* Assets.xcassets */,
+				4EC54CCC25266F7600EE7DC1 /* LaunchScreen.storyboard */,
+				4EC54CCF25266F7600EE7DC1 /* Info.plist */,
+				4EC54D232526DC6700EE7DC1 /* RecipeTableViewController.swift */,
+			);
+			path = "marleyspoon-code-challenge-iOS";
+			sourceTree = "<group>";
+		};
+		4EC54CD725266F7600EE7DC1 /* marleyspoon-code-challenge-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54CD825266F7600EE7DC1 /* marleyspoon_code_challenge_iOSTests.swift */,
+				4EC54CDA25266F7600EE7DC1 /* Info.plist */,
+			);
+			path = "marleyspoon-code-challenge-iOSTests";
+			sourceTree = "<group>";
+		};
+		4EC54CE225266F7600EE7DC1 /* marleyspoon-code-challenge-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54CE325266F7600EE7DC1 /* marleyspoon_code_challenge_iOSUITests.swift */,
+				4EC54CE525266F7600EE7DC1 /* Info.plist */,
+			);
+			path = "marleyspoon-code-challenge-iOSUITests";
+			sourceTree = "<group>";
+		};
+		4EC54CF1252673DA00EE7DC1 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54CF22526742F00EE7DC1 /* Service.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		4EC54CF6252674E000EE7DC1 /* extras */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54CF7252674F500EE7DC1 /* AlamofireExt.swift */,
+			);
+			path = extras;
+			sourceTree = "<group>";
+		};
+		4EC54CFC2526773000EE7DC1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54CFD2526774100EE7DC1 /* RecipesResponse.swift */,
+				4EC54D272526DE7400EE7DC1 /* RecipeResponse.swift */,
+				4EC54D012526808000EE7DC1 /* Recipe.swift */,
+				4EC54D0D2526C4C800EE7DC1 /* Query.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4EC54D1A2526CDAB00EE7DC1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4EC54D1B2526CDC600EE7DC1 /* RecipeTableViewCell.swift */,
+				4EC54D1C2526CDC600EE7DC1 /* RecipeTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC54CBD25266F7100EE7DC1 /* marleyspoon-code-challenge-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC54CE825266F7600EE7DC1 /* Build configuration list for PBXNativeTarget "marleyspoon-code-challenge-iOS" */;
+			buildPhases = (
+				296BA53328DF74D03883ACE5 /* [CP] Check Pods Manifest.lock */,
+				4EC54CBA25266F7100EE7DC1 /* Sources */,
+				4EC54CBB25266F7100EE7DC1 /* Frameworks */,
+				4EC54CBC25266F7100EE7DC1 /* Resources */,
+				A2E8829B0CD669E0E48080EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "marleyspoon-code-challenge-iOS";
+			productName = "marleyspoon-code-challenge-iOS";
+			productReference = 4EC54CBE25266F7100EE7DC1 /* marleyspoon-code-challenge-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC54CD325266F7600EE7DC1 /* marleyspoon-code-challenge-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC54CEB25266F7600EE7DC1 /* Build configuration list for PBXNativeTarget "marleyspoon-code-challenge-iOSTests" */;
+			buildPhases = (
+				24ED66F96938C10675391953 /* [CP] Check Pods Manifest.lock */,
+				4EC54CD025266F7600EE7DC1 /* Sources */,
+				4EC54CD125266F7600EE7DC1 /* Frameworks */,
+				4EC54CD225266F7600EE7DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC54CD625266F7600EE7DC1 /* PBXTargetDependency */,
+			);
+			name = "marleyspoon-code-challenge-iOSTests";
+			productName = "marleyspoon-code-challenge-iOSTests";
+			productReference = 4EC54CD425266F7600EE7DC1 /* marleyspoon-code-challenge-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EC54CDE25266F7600EE7DC1 /* marleyspoon-code-challenge-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC54CEE25266F7600EE7DC1 /* Build configuration list for PBXNativeTarget "marleyspoon-code-challenge-iOSUITests" */;
+			buildPhases = (
+				D0C31D866DC100155F6610E9 /* [CP] Check Pods Manifest.lock */,
+				4EC54CDB25266F7600EE7DC1 /* Sources */,
+				4EC54CDC25266F7600EE7DC1 /* Frameworks */,
+				4EC54CDD25266F7600EE7DC1 /* Resources */,
+				9A0882AB03E75FDA949AA0B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC54CE125266F7600EE7DC1 /* PBXTargetDependency */,
+			);
+			name = "marleyspoon-code-challenge-iOSUITests";
+			productName = "marleyspoon-code-challenge-iOSUITests";
+			productReference = 4EC54CDF25266F7600EE7DC1 /* marleyspoon-code-challenge-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC54CB625266F7100EE7DC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Anderson;
+				TargetAttributes = {
+					4EC54CBD25266F7100EE7DC1 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					4EC54CD325266F7600EE7DC1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 4EC54CBD25266F7100EE7DC1;
+					};
+					4EC54CDE25266F7600EE7DC1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 4EC54CBD25266F7100EE7DC1;
+					};
+				};
+			};
+			buildConfigurationList = 4EC54CB925266F7100EE7DC1 /* Build configuration list for PBXProject "marleyspoon-code-challenge-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC54CB525266F7100EE7DC1;
+			productRefGroup = 4EC54CBF25266F7100EE7DC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC54CBD25266F7100EE7DC1 /* marleyspoon-code-challenge-iOS */,
+				4EC54CD325266F7600EE7DC1 /* marleyspoon-code-challenge-iOSTests */,
+				4EC54CDE25266F7600EE7DC1 /* marleyspoon-code-challenge-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC54CBC25266F7100EE7DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC54CCE25266F7600EE7DC1 /* LaunchScreen.storyboard in Resources */,
+				4EC54CCB25266F7600EE7DC1 /* Assets.xcassets in Resources */,
+				4EC54CC925266F7100EE7DC1 /* Main.storyboard in Resources */,
+				4EC54D202526CDC600EE7DC1 /* RecipeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC54CD225266F7600EE7DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC54D212526CDC600EE7DC1 /* RecipeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC54CDD25266F7600EE7DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC54D222526CDC600EE7DC1 /* RecipeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24ED66F96938C10675391953 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marleyspoon-code-challenge-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		296BA53328DF74D03883ACE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marleyspoon-code-challenge-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0882AB03E75FDA949AA0B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E8829B0CD669E0E48080EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marleyspoon-code-challenge-iOS/Pods-marleyspoon-code-challenge-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marleyspoon-code-challenge-iOS/Pods-marleyspoon-code-challenge-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-marleyspoon-code-challenge-iOS/Pods-marleyspoon-code-challenge-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C31D866DC100155F6610E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC54CBA25266F7100EE7DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC54CC625266F7100EE7DC1 /* ViewController.swift in Sources */,
+				4EC54D1D2526CDC600EE7DC1 /* RecipeTableViewCell.swift in Sources */,
+				4EC54CF8252674F500EE7DC1 /* AlamofireExt.swift in Sources */,
+				4EC54D022526808000EE7DC1 /* Recipe.swift in Sources */,
+				4EC54D282526DE7400EE7DC1 /* RecipeResponse.swift in Sources */,
+				4EC54CFE2526774100EE7DC1 /* RecipesResponse.swift in Sources */,
+				4EC54D0E2526C4C800EE7DC1 /* Query.swift in Sources */,
+				4EC54CF32526742F00EE7DC1 /* Service.swift in Sources */,
+				4EC54CC225266F7100EE7DC1 /* AppDelegate.swift in Sources */,
+				4EC54CC425266F7100EE7DC1 /* SceneDelegate.swift in Sources */,
+				4EC54D242526DC6700EE7DC1 /* RecipeTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC54CD025266F7600EE7DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC54CF9252674F500EE7DC1 /* AlamofireExt.swift in Sources */,
+				4EC54D252526DC6700EE7DC1 /* RecipeTableViewController.swift in Sources */,
+				4EC54CD925266F7600EE7DC1 /* marleyspoon_code_challenge_iOSTests.swift in Sources */,
+				4EC54CFF2526774100EE7DC1 /* RecipesResponse.swift in Sources */,
+				4EC54CF42526742F00EE7DC1 /* Service.swift in Sources */,
+				4EC54D0F2526C4C800EE7DC1 /* Query.swift in Sources */,
+				4EC54D032526808000EE7DC1 /* Recipe.swift in Sources */,
+				4EC54D1E2526CDC600EE7DC1 /* RecipeTableViewCell.swift in Sources */,
+				4EC54D292526DE7400EE7DC1 /* RecipeResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC54CDB25266F7600EE7DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC54CFA252674F500EE7DC1 /* AlamofireExt.swift in Sources */,
+				4EC54D262526DC6700EE7DC1 /* RecipeTableViewController.swift in Sources */,
+				4EC54CE425266F7600EE7DC1 /* marleyspoon_code_challenge_iOSUITests.swift in Sources */,
+				4EC54D002526774100EE7DC1 /* RecipesResponse.swift in Sources */,
+				4EC54CF52526742F00EE7DC1 /* Service.swift in Sources */,
+				4EC54D102526C4C800EE7DC1 /* Query.swift in Sources */,
+				4EC54D042526808000EE7DC1 /* Recipe.swift in Sources */,
+				4EC54D1F2526CDC600EE7DC1 /* RecipeTableViewCell.swift in Sources */,
+				4EC54D2A2526DE7400EE7DC1 /* RecipeResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC54CD625266F7600EE7DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC54CBD25266F7100EE7DC1 /* marleyspoon-code-challenge-iOS */;
+			targetProxy = 4EC54CD525266F7600EE7DC1 /* PBXContainerItemProxy */;
+		};
+		4EC54CE125266F7600EE7DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC54CBD25266F7100EE7DC1 /* marleyspoon-code-challenge-iOS */;
+			targetProxy = 4EC54CE025266F7600EE7DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC54CC725266F7100EE7DC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC54CC825266F7100EE7DC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EC54CCC25266F7600EE7DC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC54CCD25266F7600EE7DC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC54CE625266F7600EE7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EC54CE725266F7600EE7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EC54CE925266F7600EE7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01DAAE615E3C911EE649A5A /* Pods-marleyspoon-code-challenge-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34567DB6CH;
+				INFOPLIST_FILE = "marleyspoon-code-challenge-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anderson.marleyspoon-code-challenge-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EC54CEA25266F7600EE7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EF1C9ACA58C6954FC68D45 /* Pods-marleyspoon-code-challenge-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34567DB6CH;
+				INFOPLIST_FILE = "marleyspoon-code-challenge-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anderson.marleyspoon-code-challenge-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EC54CEC25266F7600EE7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB3527A01B4FE4AA7B0C872 /* Pods-marleyspoon-code-challenge-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34567DB6CH;
+				INFOPLIST_FILE = "marleyspoon-code-challenge-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anderson.marleyspoon-code-challenge-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marleyspoon-code-challenge-iOS.app/marleyspoon-code-challenge-iOS";
+			};
+			name = Debug;
+		};
+		4EC54CED25266F7600EE7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFAB162DBFE45CEFFE55F2B /* Pods-marleyspoon-code-challenge-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34567DB6CH;
+				INFOPLIST_FILE = "marleyspoon-code-challenge-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anderson.marleyspoon-code-challenge-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marleyspoon-code-challenge-iOS.app/marleyspoon-code-challenge-iOS";
+			};
+			name = Release;
+		};
+		4EC54CEF25266F7600EE7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13953C0EEC789E7A498C2A5 /* Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34567DB6CH;
+				INFOPLIST_FILE = "marleyspoon-code-challenge-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anderson.marleyspoon-code-challenge-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "marleyspoon-code-challenge-iOS";
+			};
+			name = Debug;
+		};
+		4EC54CF025266F7600EE7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6DD186A593085E3C4AA92B /* Pods-marleyspoon-code-challenge-iOS-marleyspoon-code-challenge-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34567DB6CH;
+				INFOPLIST_FILE = "marleyspoon-code-challenge-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anderson.marleyspoon-code-challenge-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "marleyspoon-code-challenge-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC54CB925266F7100EE7DC1 /* Build configuration list for PBXProject "marleyspoon-code-challenge-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC54CE625266F7600EE7DC1 /* Debug */,
+				4EC54CE725266F7600EE7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC54CE825266F7600EE7DC1 /* Build configuration list for PBXNativeTarget "marleyspoon-code-challenge-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC54CE925266F7600EE7DC1 /* Debug */,
+				4EC54CEA25266F7600EE7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC54CEB25266F7600EE7DC1 /* Build configuration list for PBXNativeTarget "marleyspoon-code-challenge-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC54CEC25266F7600EE7DC1 /* Debug */,
+				4EC54CED25266F7600EE7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC54CEE25266F7600EE7DC1 /* Build configuration list for PBXNativeTarget "marleyspoon-code-challenge-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC54CEF25266F7600EE7DC1 /* Debug */,
+				4EC54CF025266F7600EE7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC54CB625266F7100EE7DC1 /* Project object */;
+}

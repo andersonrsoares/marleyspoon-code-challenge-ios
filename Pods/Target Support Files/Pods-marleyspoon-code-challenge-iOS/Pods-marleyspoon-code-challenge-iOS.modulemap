@@ -1,0 +1,6 @@
+framework module Pods_marleyspoon_code_challenge_iOS {
+  umbrella header "Pods-marleyspoon-code-challenge-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
